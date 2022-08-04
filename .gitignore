@@ -611,3 +611,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# token file
+token.txt
