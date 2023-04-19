@@ -446,6 +446,7 @@ target/
 # IPython
 profile_default/
 ipython_config.py
+Sandbox.py
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
@@ -591,6 +592,7 @@ Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
+telebot.db
 
 # Dump file
 *.stackdump
@@ -613,3 +615,6 @@ $RECYCLE.BIN/
 
 # token file
 token.txt
+
+# db files
+*.db
