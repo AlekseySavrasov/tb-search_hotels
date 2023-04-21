@@ -437,7 +437,7 @@ def answer_request(message: Message) -> None:
                     list_name_hotels += f"{i_hotel[0]}, "
 
                 bot.send_message(
-                    message.chat.id, f"Название отеля: {i_hotel[0]}.\nАдрес отеля: {i_hotel[5][-1:]}.\n"
+                    message.chat.id, f"Название отеля: {i_hotel[0]}.\nАдрес отеля: {i_hotel[5][-1:][0]}.\n"
                                      f"Расстояние от центра: {i_hotel[1]} км.\nЦена за ночь: ${i_hotel[2]}.\n"
                                      f"Цена за указанные даты: {i_hotel[3]}.\n{i_hotel[4]}",
                     reply_markup=keyboards.help_keyboard)
