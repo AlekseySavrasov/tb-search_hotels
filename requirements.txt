@@ -1,8 +1,5 @@
-certifi==2022.12.7
-charset-normalizer==3.1.0
-idna==3.4
-pyTelegramBotAPI==4.10.0
-requests==2.28.2
-urllib3==1.26.15
-python-dotenv~=1.0.0
 pydantic==1.10.7
+pyTelegramBotAPI==4.14.0
+python-dotenv
+Requests==2.31.0
+urllib3==1.26.6
